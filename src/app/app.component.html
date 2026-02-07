@@ -1,1 +1,10 @@
-<button mat-raised-button color="primary">Click me!</button>
+<mat-toolbar color="primary">
+  <span>CRUD Angular Material</span>
+  <span class="spacer"></span>
+  <button mat-button routerLink="/">Home</button>
+  <button mat-button routerLink="/consulta">Consulta</button>
+  <button mat-button routerLink="/cadastro">Cadastro</button>
+</mat-toolbar>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
